@@ -1,0 +1,12 @@
+
+
+
+<div class="form">
+  <%=form_tag("/posts/#{@post.id}/update") do %>
+  <textarea name="content" rows="15" cols="60"><%=@post.content %></textarea>
+   <ul >
+  <li><input type="submit" value="更新" class ="btn" ></li>
+  <%end%>
+  <%=link_to("削除","/posts/#{@post.id}/destroy",{method:"post",class:"btn up"})%>
+    </ul>
+ </div>
