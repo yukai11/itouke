@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'users/index' => "users#index"
   get 'posts/index' => "posts#index"
-  get '/' => "home#login"
+  root '/' => "home#login"
   post "/login" => "home#login"
   get "posts/new" => "posts#new"
   post "posts/create" => "posts#create"
