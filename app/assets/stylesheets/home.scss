@@ -1,0 +1,49 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body{
+ margin: 0;
+ min-width: 1000px;
+ padding:0; /*　追加*/
+ height: 100%;
+}
+.signin{
+ width: 300px;
+ height: 160px;
+ border:solid 3px;
+ margin: auto;
+ margin-top: 200px;
+ margin-bottom:100px;
+ul{
+ margin-bottom: 0;
+}
+}
+.btn {
+ display: inline-block;
+ padding: 0.5em 1em;
+ text-decoration: none;
+ background: black;/*ボタン色*/
+ color: white;
+ border-bottom: solid 4px #CCCC;
+ border-radius: 3px;
+ margin-left: 240px;
+ margin-bottom: 20px;
+&:active{
+ -webkit-transform: translateY(4px);
+ transform: translateY(4px);
+ border-bottom: none;
+}
+}
+li{
+ list-style: none;
+}
+.up{
+position: absolute;
+top: 223.5px;
+left: 250px;
+height: 17px;
+width:  22px;
+font-size: 11px;
+}

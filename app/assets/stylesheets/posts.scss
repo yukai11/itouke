@@ -1,0 +1,43 @@
+.comment{
+  height: 135px;
+  width: 460px;
+  border: solid  2px  #CCCCCC ;
+  margin: auto;
+  margin-bottom: 10px;
+
+}
+.icon{
+  float: left;
+  margin: 5px 20px ;
+}
+.name{
+  margin: 5px 20px;
+}
+.content{
+  margin-left: 50px;
+ .link{
+  color: black;
+  text-decoration:none;
+   }
+ textarea{
+   resize:none;
+   word-wrap: break-word;
+  &:forcus {
+   outline:none;
+  }
+ }
+}
+.form{
+ width: 450px;
+ height: 250px;
+ margin: auto;
+ min-height: 259px;
+  }
+#errors{
+  color: red;
+
+ }
+img{
+  height: 40px;
+  width: 40px;
+}

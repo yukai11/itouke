@@ -1,0 +1,11 @@
+<%@post.errors.full_messages.each do |message|%>
+<p id="errors"><%=message%></p>
+<% end%>
+
+
+<div class="form">
+<%=form_tag("/posts/create") do %>
+  <textarea name="content" rows="15" cols="60"><%=@post.content %></textarea>
+  <input type="submit" value="投稿" class ="input_form" >
+<%end%>
+</div>
